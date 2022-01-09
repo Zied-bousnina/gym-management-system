@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+
+.tit{
+    font-family: 'Raleway', sans-serif;
+    color: #000000b5;
+    letter-spacing: -3px;
+    font-weight: 900;
+    font-size: 50px;
+}
+/* Start form  */
+form{
+    width: 400px;
+    margin: 20px auto;
+}
+
+form input,
+form textarea{
+    margin-bottom:5px ;
+}
+
+form textarea{
+    height: 180px !important;
+}
+.contact-form i{
+    height: 10px;
+    float: left;
+    position: relative;
+    top: -30px;
+    left: 10px;
+    color: #9c9c9c;
+}
+
+.contact-form input{
+    padding-left: 29px;
+}
+
+.contact-form .send-msg{
+    display: block;
+    position: relative;
+    top: 11px;
+    left: 7px;
+    color: #fff;
+    z-index: 5;
+}
+.error{
+    
+    margin: 20px auto;
+    width: 286px;
+    /* box-shadow: 0 0 10px; */
+    -webkit-box-shadow: -9px 10px 50px 9px rgb(46 46 46);
+    -moz-box-shadow: -9px 10px 50px 9px rgba(46,46,46,1);
+    box-shadow: -9px 10px 50px 9px rgb(46 46 46);
+    padding: 10px;
+    border-radius: 26px;
+
+
+
+}
+
+
+/* End form  */
